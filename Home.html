@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+ text-shadow: 2px 2px 5px black;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.img {
+  background-image: url("cbit home pic.jpg");
+  background-size:cover;
+  position:relative;
+  backgrond-position:center;
+  height:400px;
+  width:1600px;
+  
+}
+.newspaper {
+  
+-webkit-column-count: 3;
+  -webkit-column-gap: 40px;
+  -webkit-column-rule: 1px solid lightblue;
+}
+marquee{
+color:red;
+}
+
+h2 {
+  -webkit-column-span: all; 
+  column-span: all;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>EXAM PAPER REPOSITARY</h1>
+</div>
+
+<div class="topnav">
+    <a class="active" href="#home">HOME</a>
+  <a href="#about" >ABOUT US</a>
+  <a href="#search">SEARCH PAPER</a>
+  <a href="#register">REGISTER</a>
+  <a href="#contact">CONTACT US</a>
+  <a href="login.html" >LOGIN</a>
+</div>
+<marquee>"Subject Name" Question Paper Is Relesed If You Want Login!!!!!!!</marquee>
+  <div class="img"></div>
+
+<div class="newspaper">
+<center><h2>Welcome To Exam Question Paper Repository</h2></center>
+An exam question paper management system is a system (based on computer programs in the case of the management of digital documents) used to track, manage and store documents and reduce paper .more are capable of keeping a record of the various versions created and modified by different users(history tracking ) the term has some overlap with the concepts of content management system it is often  viewed as a component of enterprise content management (ECM) Systems and reduce to digit asset management document imaging workflow system and record management system.</div>
+
+
+</body>
+</html>
